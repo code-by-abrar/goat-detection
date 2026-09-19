@@ -1,40 +1,46 @@
-# 🐐 Goat Detection & Tracking System
+# 🐐 Smart Livestock Monitoring & Goat Detection System
 
-An AI-powered computer vision system designed to detect and uniquely track goats using **YOLO**, **ByteTrack**, and **Supervision**. It features moving camera support and an on-screen counter that logs unique IDs in real-time.
+<div align="center">
 
----
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Livestock%20AI-blue.svg?style=for-the-badge)](https://ultralytics.com)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Computer%20Vision-EE4C2C.svg?style=for-the-badge&logo=pytorch)](https://pytorch.org)
+[![AgriTech](https://img.shields.io/badge/AgriTech-Farm%20Automation-4CAF50.svg?style=for-the-badge)](https://github.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-## 📺 Project Results & Demo
-Check out the project execution and video demo here:
-- **[👉 View Results & Video Demo on LinkedIn](https://lnkd.in/p/dMU-mqAX)**
-- Alternatively, check the [`results/` folder](file:///results/README.md).
+**Automated computer vision system for livestock counting, pen tracking, and agricultural farm security monitoring using YOLOv8.**
 
----
-
-## 🛠️ Tech Stack & Dependencies
-- **Ultralytics YOLO** (Custom trained model: `model/best.pt`)
-- **Supervision** (Visual annotations and detections)
-- **OpenCV** (Video processing and UI overlay)
-- **ByteTrack** (Multi-object tracking)
+</div>
 
 ---
 
-## 🚀 Getting Started
+## 📌 Overview
 
-### 1. Clone the Repository
-```bash
-git clone <YOUR_REPOSITORY_URL>
-cd Goat_detection
-```
+Modern smart farming relies on non-invasive visual monitoring to maintain animal welfare and farm security. This project implements a custom **YOLOv8** model trained to identify and track goats across pastures, feeding stations, and agricultural enclosures.
 
-### 2. Install Requirements
-```bash
-pip install -r requirements.txt
-```
+---
 
-### 3. Run the Script
-Make sure your input video (e.g. `video.mp4`) and model (`model/best.pt`) are in place, then run:
-```bash
-python src/gem1.py
-```
-Press `q` to terminate the video stream and view the total unique count.
+## ⚡ Applications
+
+- 📊 **Automated Headcount**: Replaces manual counting at pen gates.
+- 🛡️ **Perimeter & Predator Alert**: Detects animal straying beyond fenced areas.
+- 📈 **Pasture Density Tracking**: Monitors grazing distribution.
+
+---
+
+## 🛠️ Quick Start
+
+1. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run Detection**:
+   ```bash
+   python gem1.py
+   ```
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
