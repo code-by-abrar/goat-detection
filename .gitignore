@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Video files (heavy local test and output videos)
+*.mp4
+*.avi
+*.mov
+*.mkv
+video.mp4
+moving_camera_count5_trim.mp4
+
+# Ultralytics / YOLO artifacts and logs
+runs/
+*.log
+
+# PyTorch checkpoints (model/best.pt is kept since it is under 100MB GitHub limit)
+# checkpoints/
